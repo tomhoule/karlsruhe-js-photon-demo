@@ -1,0 +1,17 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "stepType": "DeleteDirective",
+      "model": "User",
+      "field": "likes",
+      "directive": "relation"
+    },
+    {
+      "stepType": "DeleteDirective",
+      "model": "Dog",
+      "field": "likedBy",
+      "directive": "relation"
+    }
+  ]
+}

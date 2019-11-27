@@ -1,0 +1,10 @@
+# IF THERE'S A GIT CONFLICT IN THIS FILE, DON'T SOLVE IT MANUALLY!
+# INSTEAD EXECUTE `prisma lift fix`
+# lift lockfile v1
+# Read more about conflict resolution here: TODO
+
+20191126182851-initial
+20191126183942-remove-unique
+20191126193028-named-relations
+20191126193139-reunique
+20191126194342-final

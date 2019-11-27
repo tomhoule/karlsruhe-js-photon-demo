@@ -1,0 +1,33 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "stepType": "CreateDirective",
+      "model": "User",
+      "field": "likes",
+      "directive": "relation"
+    },
+    {
+      "stepType": "CreateDirectiveArgument",
+      "model": "User",
+      "field": "likes",
+      "directive": "relation",
+      "argument": "",
+      "value": "\"likes\""
+    },
+    {
+      "stepType": "CreateDirective",
+      "model": "Dog",
+      "field": "likedBy",
+      "directive": "relation"
+    },
+    {
+      "stepType": "CreateDirectiveArgument",
+      "model": "Dog",
+      "field": "likedBy",
+      "directive": "relation",
+      "argument": "",
+      "value": "\"likes\""
+    }
+  ]
+}
