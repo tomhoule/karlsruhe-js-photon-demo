@@ -17,6 +17,6 @@ model User {
 model Dog {
   id      Int     @id
   name    String
-  email   String?
+  email   ?
   likedBy User[]
 }
